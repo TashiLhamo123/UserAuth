@@ -7,7 +7,7 @@ const userController = require('../Controller/userController');
 router.get('/dashboard', isAuthenticated, userController.getDashboard);
 
 
-router.get('/foods',isAuthenticated, userController.getAllFoods);
+router.get('/food',isAuthenticated, userController.getAllFoods);
 
 
 module.exports = router;
